@@ -15,14 +15,14 @@ const HeroSection: FC<HeroSectionProps> = ({}) => {
       <div className={styles.heroSection__inner}>
         <HeroInfo />
         <HeroSlider />
-        <div className={styles.heroSection__inner__wave}>
-          <Image src={wave} alt="Wave"/>
-        </div>
           <div className={styles.heroSection__inner__cta}>
             <Mouse />
             <span>sroll down</span>
           </div>
       </div>
+        <div className={styles.heroSection__inner__wave}>
+          <Image src={wave} alt="Wave"/>
+        </div>
     </section>
   );
 };

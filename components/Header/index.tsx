@@ -2,6 +2,8 @@ import { Logo } from '@/services/icons/Logo'
 import styles from './style.module.scss'
 import React, { FC } from 'react'
 import { Basket } from '@/services/icons/Basket'
+import { HeaderNavs } from './constants'
+import Link from 'next/link'
 
 interface HeaderProps {
   
@@ -18,10 +20,8 @@ const Header: FC<HeaderProps> = ({  }) => {
             <div className={styles.header__inner__nav}>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Shop</li>
-                        <li>About</li>
-                        <li>Help</li>
+                        {HeaderNavs.map((el,_i) => <li key={_i}><Link href={el.href}>{el.name}</Link></li>)}
+                        
                     </ul>
                 </nav>
                 <div className={styles.header__inner__nav__basket}>

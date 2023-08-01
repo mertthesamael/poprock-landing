@@ -25,7 +25,7 @@ const HeroSlider: FC<HeroSliderProps> = ({}) => {
         }}
       >
         {HeroSlides.map((el, _i) => (
-          <SwiperSlide key={_i}>
+          <SwiperSlide className={styles.heroSlider__wrapper__slide} key={_i}>
             <HeroProductCard
               id={el.id}
               img={el.img}
