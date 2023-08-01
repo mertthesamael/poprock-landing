@@ -1,7 +1,7 @@
 @use "../../style/variables.scss" as *;
 .productsSection{
     width: 100%;
-    height: max-content;
+    min-height: 100vh;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;

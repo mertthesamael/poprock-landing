@@ -18,6 +18,7 @@ const HeroSlider: FC<HeroSliderProps> = ({}) => {
       <Swiper
         effect="fade"
         spaceBetween={150}
+        slidesPerView={1}
         onSlideChange={(slide) => setActiveIndex(slide.activeIndex)}
         className={styles.heroSlider__wrapper}
         onSwiper={(swiper) => {
