@@ -1,3 +1,7 @@
+![image](https://github.com/mertthesamael/poprock-landing/assets/79616834/75f10b29-b089-4481-89d8-c8233e914f11)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
